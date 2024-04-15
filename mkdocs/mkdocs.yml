@@ -11,13 +11,17 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: thefield
+      scheme: default
+      primary: black
+      accent: black
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: black
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
@@ -28,7 +32,6 @@ theme:
     - announce.dismiss
     - header.autohide
     - navigation.indexes
-    - navigation.tabs
     - navigation.top
     - navigation.instant
     - navigation.instant.prefetch
