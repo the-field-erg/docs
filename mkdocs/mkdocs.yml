@@ -1,9 +1,13 @@
 site_name: The Field
 # site_url: https://example.com
 copyright: Copyright &copy; 2024 - The Field
+repo_url: https://github.com/the-field-erg
 theme:
   name: material
+  custom_dir: overrides
   font: false
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -29,17 +33,25 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.tracking
     - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
 extra:
   social:
+    - icon: fontawesome/brands/Github
+      link: https://github.com/the-field-erg
     - icon: fontawesome/brands/discord
       link: https://discord.com
     - icon: fontawesome/brands/x-twitter
       link: https://x.com
     - icon: fontawesome/brands/telegram
       link: https://telegram.com
+    - icon: fontawesome/solid/globe
+      link: https://the-field.pages.dev
 extra_css:
   - /css/extra.css
+plugins:
+  - privacy
+  - search
