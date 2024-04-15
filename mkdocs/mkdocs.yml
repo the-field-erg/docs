@@ -1,16 +1,45 @@
 site_name: The Field
+# site_url: https://example.com
+copyright: Copyright &copy; 2024 - The Field
 theme:
   name: material
+  font: false
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: thefield
       toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - announce.dismiss
+    - header.autohide
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com
+    - icon: fontawesome/brands/telegram
+      link: https://telegram.com
+extra_css:
+  - /stylesheets/extra.css
