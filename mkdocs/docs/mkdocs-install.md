@@ -15,7 +15,7 @@
 ## Usage
 
 1. Fetch the latest version of the docs repo with Github Desktop.
-2. Using Powershell navigate to the mkdocs repo. Example: ```cd C:\Github\thefield\docs\mkdocs```
+2. Using Powershell or VS Code terminal navigate to the mkdocs repo. Example: ```cd C:\Github\thefield\docs\mkdocs```
 3. Run mkdocs: ```mkdocs serve``` and in your browser open <http://127.0.0.1:8000>
 4. Add, delete or edit .md files  in ```mkdocs/docs``` and verify your changes in your browser.
 5. When done run ```mkdocs build``` and push the changes to the repo with Github Desktop
