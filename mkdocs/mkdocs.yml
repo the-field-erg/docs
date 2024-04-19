@@ -14,7 +14,7 @@ theme:
       primary: black
       accent: black
       toggle:
-        icon: material/brightness-auto
+        icon: material/link
         name: Switch to light mode
 
     # Palette toggle for light mode
@@ -23,7 +23,7 @@ theme:
       primary: black
       accent: black
       toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -32,7 +32,7 @@ theme:
       primary: black
       accent: black
       toggle:
-        icon: material/brightness-4
+        icon: material/toggle-switch-off-outline
         name: Switch to system preference
   features:
     - content.code.annotate
